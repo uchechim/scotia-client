@@ -64,11 +64,11 @@ const AddListingModal = ({ open, handleClose }) => {
     const AWS = require('aws-sdk');
 
     AWS.config.update({
-      accessKeyId: 'ASIA47CRZQGRXASSCNHM',
-      secretAccessKey: 'EreVeDL+kzSTOYlFkkU3oW7sLxVDJDGKqh5/pg8k',
+      accessKeyId: 'ASIA47CRZQGRRSEDBOGB',
+      secretAccessKey: 'jlJarjUZ5kMbMrzh7615RvXv+twfMxxyGE8KsF7J',
       region: 'us-east-1',
       sessionToken:
-        'IQoJb3JpZ2luX2VjEKP//////////wEaCXVzLXdlc3QtMiJHMEUCIQC+yliypSganiaXOtMG/kEf/SPH1Der43c3YSecOYh2nAIgDNmzVZohFttFfzVmO0Dna38bwnmAodJdKE3HHCyUgXcqsgIIzP//////////ARAAGgw4OTEzNzcyNTQ4MTkiDJU9xOPVF2pHt+dkvCqGAmLA78q1OqZQpf+DmRpv8Efa/adnrVHkxlFukHH6OmKvargo7aiWi5yHMKCGxlbDR2RBqbWrH9Ig58tOOlzP4CTEfjNUNSf1jJtvC54UISJ6u3N1OqW3E7SsourCZOuAu/S9dJ4BMjFAxZm7/7EuuI67ve7k8Ry1949fO2vxes2B91/i0Fc6ci0Z8qoaJOXdZwCLvScZ7+aeBCeOWAWJ1IOuAX/FX7cmCNzNhTk8fyg4KbuYmBidgsvvspAd2cRHDyIKtyaXkUJAhxEpLAmqcLZHlR1bOZQuizBawi+4OcWp7ZjtFNOoyHmp/veu6xcond6JBwolutG49K2m6AnSyuKCt+X9jWown4jIsAY6nQGNo1q1BiqOgvXnsCysnm9r3+Y3hYOjgVqvfTUGTqobrLYRrhvzUgY2jXaXP6RG9zzyqY6Zicvzjh/TXlmtxoF46N6FcP/75jDmfdseQ6Rii2LjqvoRTnUzS9QTd480SCTsjfwJfTJXmlOWzgJWOoRg+YZ16pN3XzHXOc9cZPisggkC6sHTwgBn0XUZFkXqNsa29IL+o1NNUKreOYwN',
+        'IQoJb3JpZ2luX2VjEMn//////////wEaCXVzLXdlc3QtMiJHMEUCIG6Ceh/f2wNoKDrpONqqwAXrmyE9XygjsYHc0lfKAKa8AiEAv7AhYDEeYssKTEg5xbIGkQx+vp4Zq8nsluOdjzpneIIqsgII8v//////////ARAAGgw4OTEzNzcyNTQ4MTkiDE3dRF7PCrRa9+wphCqGAsZECC2JWsYzKXxT7H22fvJTqKN20DXO7aApRtTMf+5Ka1FqjFYhVjR48B7TMRetzCjTnBo8UOV03SCWXvYs/rdu9KqKL2wJ9ngB5YcczlEusaLGYHjNXdc16C6olqbZccmvq7WeDlWlU0CQWOpIHDXuJm06ugQia3x01gTQ6g8K8WkGP9LyWfnMw0KnMwU9DVKcUxGbHHjKSun8uiA0OdwOTZNpSvSd03oOYPIN/Mwcl9PIyPsKK8vNxHTi+deChltPtPo8FybsJIt1E6MmYzJ9Le/G/ZMvkUs0zoY0Xm4OpowUxV3ClUsbJMMcrF3y1y1lJOHMu8wWtFf/qX0dKsJN5RDw1LcwxLnQsAY6nQGWCh4E5n+mmRbhVCLJIbqaCbsjoQ8ILvNgQlmsiuuRwX6bQXnwLnwk6sRvX1Oqvy/ssMVTSZZzuh3c/gVjsQJxn4GH35t+jAuXEAevKLb3KseAY8BPUdOZdzmeX8qjYIFdbXnet6sK0jbtrxGtw1TIZpbtlZ+1Av6+5c5t/1i6HppAyME0sPvpiT7msOhTkU/OvNO8bltcUnnJbOk/',
     });
 
     const s3 = new AWS.S3({
