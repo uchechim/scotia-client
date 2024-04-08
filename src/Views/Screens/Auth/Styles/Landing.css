@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Inter, sans-serif;
+  src: url(../../../Components/Fonts/Inter.ttf);
+}
+
+.General {
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.Header {
+  font-size: large;
+  font-weight: 800;
+
+  font-size: 2rem;
+  font-variation-settings: 'slnt' 0;
+  text-align: center;
+}
+
+.Block {
+  height: 70px;
+  width: vw;
+  background-color: #0147b6;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  color: white;
+}
+
+.LogoStyle {
+  height: 303px;
+  width: 326px;
+}
+
+.LandingBlock {
+  max-height: 100vh;
+  width: 50%;
+  overflow: auto;
+  background-color: #d3d3d3;
+  margin: auto;
+  padding: 5rem;
+  border-radius: 25px;
+  margin-top: 8rem;
+}
+
+/*reference -> https://www.w3schools.com/howto/howto_css_vertical_line.asp*/
+.Divider {
+  border-left: 4px solid black;
+  height: 35vh;
+  position: absolute;
+  bottom: 30%;
+  left: 46%;
+}
+
+.BtnContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  position: absolute;
+  left: 56%;
+  bottom: 40%;
+}
+
+.LandingTextContainer {
+  position: absolute;
+  left: 48%;
+  bottom: 48%;
+  text-align: center;
+}
+.LandingTextContainer h1 {
+  font-weight: 900;
+  font-size: 35px;
+  color: black;
+}
+
+.LandingTextContainer h4 {
+  font-weight: 900;
+  font-size: 15px;
+  color: black;
+}
